@@ -1,0 +1,231 @@
+.btn-default{
+    background-color:#390d4a;
+    color: white;
+    border-color: #390d4a;
+}
+
+/* Botão ceub branco -> rosa quando hover */
+.btn-outline-ceub{
+    background-color:white;
+    color: #390d4a;
+    border-color: #390d4a;
+}
+
+.btn-outline-ceub:hover, .btn-outline-ceub:focus, .btn-outline-ceub:active, .btn-outline-ceub.active, .open .dropdown-toggle.btn-outline-ceub {
+    background-color: white;
+    color: #78126b;
+    border-color: #78126b;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #390d4a;
+    color:white;
+    border-color: #390d4a;
+}
+
+/* Botão ceub roxo -> rosa quando hover*/
+.btn-light{
+    background-color:#390d4a;
+    color: white;
+    border-color: #390d4a;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active, .open .dropdown-toggle.btn-light {
+    background-color: #78126b;
+    color:white;
+    border-color: #78126b;
+}
+
+.bg-ceubLight{
+    --bs-bg-opacity: 1;
+    background-color: #78126b;
+}
+
+.bg-ceub{
+    --bs-bg-opacity: 1;
+    background-color: #390d4a;
+}
+
+.bg-red{
+    --bs-bg-opacity: 1;
+    background-color:  #e60000;
+    color: white;
+}
+
+.bg-green{
+    --bs-bg-opacity: 1;
+    background-color:  #80ff80;
+}
+
+.ceub{
+    color: #390d4a !important;
+}
+
+
+.ceubLight{
+    color: #78126b !important;
+}
+
+hr.new1{
+  color: #390d4a;  
+  background-color: #1b0025;
+}
+
+footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.tabela{
+    margin-top: 10px;
+}
+
+/* Imagem Hover Zoom */
+.zoom-img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.zoom-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+
+.zoom-img img:hover {
+    transform: scale(1.2);
+}
+
+/* Imagem Projeto Info */
+.project-img {
+    height: 400px;
+    width: 711px;
+    object-fit: cover;
+}
+
+/* Imagem Projeto Edit Formulario */
+.edit-project-img {
+    height: 70px;
+    width: 124px;
+    object-fit: cover;
+}
+
+/* Imagem Projeto Formulario */
+.form-project-img {
+    height: 356px;
+    width: 650px;
+    object-fit: contain;
+}
+
+/* Imagem Projeto Excluir */
+.delete-project-img {
+    height: 200px;
+    width: 356px;
+    object-fit: cover;
+}
+
+/* Imagem Projeto Restaurar */
+.restore-project-img {
+    height: 50px;
+    width: 89px;
+    object-fit: cover;
+}
+
+/* Justifica o texto */
+.about { 
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.page-item.active .page-link {  
+    background-color: #390d4a !important;  
+    border-color: #390d4a !important;  
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #390d4a;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #390d4a;
+    border-color: #390d4a;
+}
+
+/* Background IMPRESSORA */
+.printer{
+    background-size: cover;
+    min-height:20vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+/* Background HOME */
+.masthead{
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-ceub-op{
+    background-size: cover;
+    position: relative;
+    color: white;
+    /* background-color: #390d4a60; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 768px){
+    .masthead{
+        min-height: 30vh;
+    }
+    h1{
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+input.form-control-plaintext.readonly{
+    color: #78126b;
+  }
+
+
+.reserva-icon{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+
+
+
+/* Link unstyled */
+
+/* .link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+.bg-menu:hover {
+    background-color: #0079C1;
+    color: #FFFFFF;
+}
+.clickable {
+    cursor: pointer;
+} */
