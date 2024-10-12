@@ -9,5 +9,6 @@ por vários alunos ao longo do seu percurso, entre estágios e TCC, são eles:
 
 * Eduardo Schneider Arruda
 * Pedro Henrique Carneiro de Araújo
+* Enzo Gutiérrez Pereira
 
 Todos orientados pelo professor Javier e com grande auxílio da Maruska para realizar a infraestrutura.
